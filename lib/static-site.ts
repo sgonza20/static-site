@@ -45,11 +45,6 @@ export class StaticSite extends Construct {
        * DESTROY, cdk destroy will attempt to delete the bucket, but will error if the bucket is not empty.
        */
       removalPolicy: RemovalPolicy.DESTROY, // NOT recommended for production code
-
-      /**
-       * For sample purposes only, if you create an S3 bucket then populate it, stack destruction fails.  This
-       * setting will enable full cleanup of the demo.
-       */
       autoDeleteObjects: true, // NOT recommended for production code
     });
 
