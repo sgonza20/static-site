@@ -25,7 +25,7 @@
     border-top-color: #242323;
 }
 .dark .section-head h4 {
-    border-right: 1px solid rgba(238, 238, 238, 0.3);
+    border-left: 1px solid rgba(238, 238, 238, 0.3);
 }
 .dark .owl-dot.active span {
     background: #11d6f0;
@@ -68,7 +68,7 @@
     background: #2f2e2e;
 }
 input, textarea{
-    color: rgba(255, 255, 255, 0.9);
+   color: rgba(255, 255, 255, 0.9);
 }
 span.typed{
     color: rgba(255, 255, 255, 0.5);

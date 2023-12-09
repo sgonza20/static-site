@@ -3,7 +3,7 @@
 // Email Setting
 //=======================================
 $admin_email = "marwa@elmanawy.info";
-$from_name = "Mulan";
+$from_name = "Sam";
 
 
 if (isset($_POST['email'])) {
@@ -16,8 +16,8 @@ if (isset($_POST['email'])) {
         echo 5;
         exit;
     } else {
-       $to = "$admin_email";
-        $subject = "New Contact Information";
+        $to = "$admin_email";
+        $subject = "New Contact Information From $name" ;
         $message = "Name: $name <br/>";
         $message .= "Email: $email <br/>";
         $message .= "Comment: $comment <br/>";
